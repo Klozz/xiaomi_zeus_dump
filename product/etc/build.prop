@@ -1,0 +1,65 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Xiaomi
+ro.product.product.device=zeus
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=2201122G
+ro.product.product.name=lineage_zeus
+ro.product.build.date=Tue Jun  6 13:54:43 CEST 2023
+ro.product.build.date.utc=1686052483
+ro.product.build.fingerprint=Xiaomi/lineage_zeus/zeus:13/TQ2A.230505.002/arian06061354:userdebug/test-keys
+ro.product.build.id=TQ2A.230505.002
+ro.product.build.tags=test-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=eng.arian.20230606.135527
+ro.product.build.version.release=13
+ro.product.build.version.release_or_codename=13
+ro.product.build.version.sdk=33
+####################################
+# from device/xiaomi/sm8450-common/properties/product.prop
+####################################
+# Audio
+aaudio.hw_burst_min_usec=2000
+aaudio.mmap_exclusive_policy=2
+aaudio.mmap_policy=1
+af.fast_track_multiplier=1
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+audio.sys.mute.latency.factor=2
+audio.sys.noisy.broadcast.delay=500
+audio.sys.offload.pstimeout.secs=3
+audio.sys.routing.latency=0
+media.stagefright.audio.deep=false
+persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
+ro.af.client_heap_size_kbyte=7168
+vendor.audio.flac.sw.decoder.24bit=true
+vendor.audio.hw.aac.encoder=true
+vendor.audio.offload.buffer.size.kb=32
+vendor.audio.offload.multiaac.enable=true
+vendor.audio.offload.multiple.enabled=false
+vendor.audio.offload.track.enable=false
+vendor.audio.parser.ip.buffer.size=262144
+vendor.audio.tunnel.encode=false
+vendor.audio.use.sw.alac.decoder=true
+vendor.audio.use.sw.ape.decoder=true
+vendor.audio_hal.period_size=192
+vendor.voice.path.for.pcm.voip=true
+# Radio
+persist.vendor.radio.hidl_dev_service=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.product.vndk.version=33
+ro.build.characteristics=default
+ro.product.ab_ota_partitions=boot,dtbo,odm,product,recovery,system,system_ext,vbmeta,vbmeta_system,vendor,vendor_boot,vendor_dlkm
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.notification_sound=Argon.ogg
+ro.config.alarm_alert=Hassium.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=Orion.ogg
+# end of file
