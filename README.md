@@ -1,0 +1,14 @@
+# lineage_zeus-userdebug 13 TQ2A.230505.002 eng.arian.20230606.135527 test-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: zeus
+- flavor: lineage_zeus-userdebug
+- release: 13
+- id: TQ2A.230505.002
+- incremental: eng.arian.20230606.135527
+- tags: test-keys
+- fingerprint: Xiaomi/lineage_zeus/zeus:13/TQ2A.230505.002/arian06061354:userdebug/test-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: lineage_zeus-userdebug-13-TQ2A.230505.002-eng.arian.20230606.135527-test-keys
+- repo: xiaomi_zeus_dump

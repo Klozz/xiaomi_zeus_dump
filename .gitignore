@@ -1,0 +1,7 @@
+vendor/lib64/libQnnGpu.so
+vendor/lib64/libxmi_high_dynamic_range_cdsp.so
+vendor/etc/camera/st_license.lic
+boot.img
+recovery.img
+bootRE/boot.elf
+product/app/webview/webview.apk
