@@ -1,0 +1,14 @@
+# missi_phone_global-user 13 TKQ1.220807.001 V14.0.8.0.TLBMIXM release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: zeus
+- flavor: missi_phone_global-user
+- release: 13
+- id: TKQ1.220807.001
+- incremental: V14.0.8.0.TLBMIXM
+- tags: release-keys
+- fingerprint: Xiaomi/zeus_global/zeus:13/SKQ1.220303.001/V14.0.8.0.TLBMIXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi_phone_global-user-13-TKQ1.220807.001-V14.0.8.0.TLBMIXM-release-keys
+- repo: xiaomi_zeus_dump
